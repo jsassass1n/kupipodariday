@@ -21,7 +21,7 @@ services:
       dockerfile: Dockerfile
     image: frontend
     ports:
-      - '8080:80'
+      - '8081:80'
     restart: always
     networks:
       - external
@@ -39,7 +39,7 @@ services:
   adminer:
     image: adminer
     ports:
-      - '8081:8080'
+      - '8082:8080'
     depends_on:
       - db
     networks:
