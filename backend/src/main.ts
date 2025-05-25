@@ -14,7 +14,7 @@ async function bootstrap() {
   );
 
   app.enableCors({
-    origin: 'http://localhost:8080',
+    origin: 'https://kupi-podari-day.nomorepartiessbs.ru',
     credentials: true, // if you're sending cookies or headers like Authorization
   });
 
